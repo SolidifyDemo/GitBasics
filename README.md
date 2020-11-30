@@ -1,4 +1,5 @@
 # GitBasics 
 
 Links for GitHub training
-* [Basics](.\excercises\1. GitBasics.md)
+* [Prerequisites](./Excercises/Prerequisites.md)
+* [Basics](./Excercises/GitBasics.md)

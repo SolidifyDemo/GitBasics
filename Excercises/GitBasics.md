@@ -20,17 +20,8 @@ It is wise to keep this base path short.  (The default for VS is to place this u
 
 Clone this repository to your local machine under the selected folder.  That way it is easier to work on with your local editor.  
 
-**Excecise 2   Team work**   
 
-Create a Github organisation for your team.  
-
-*Could be named SEB-Team-A and so on*
-
-Add your team members to the organisation.
-
-Create a Notes repository here, and all team members should clone this repository down.  
-
-**Excecise 3**
+**Excecise 2**
 
 Ensure you have dotnet core , and the .net core 3.1 SDK installed.
 
@@ -55,15 +46,11 @@ git init
 
 Note:  Make sure you don't create this below another git repo, always start from the basepath.
 
-#### Developer/.Net
-
 use dotnet to create a small code sample:
 
 ```
 dotnet new nunit
 ```
-
-#### All
 
 Run the git status command, and note what files are shown.
 
@@ -82,7 +69,7 @@ What folders and files are not included ?
 When sure:  Stage and commit the code/files you have.  
 
 
-**Excecise 4**
+**Excecise 3**
 
 On your own Github account, create a repo, but don't initialize it !!
 
@@ -92,8 +79,6 @@ Push the local repo to the remote.
 
 Note down what the different parts of these two commands mean.
 
-
-#### All
 
 Push the repo.
 

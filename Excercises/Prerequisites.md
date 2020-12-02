@@ -45,6 +45,20 @@ Link for downloading [VSCode](https://code.visualstudio.com/download)
 Install for linux, see https://code.visualstudio.com/docs/setup/linux 
 
 
+### DotNet
+Ensure you have dotnet core , and the .net core 3.1 SDK installed.
+
+Just write  (you can do this anywhere, it is just a check):
+
+```
+dotnet
+dotnet --list-sdks
+```
+
+Check that you have 3.1 in that list.
+
+If not [install .net core 3.1 SDK](https://dotnet.microsoft.com/download).
+
 ## Establish a remote
 
 We're using [GitHub](https://github.com) as remote storage.

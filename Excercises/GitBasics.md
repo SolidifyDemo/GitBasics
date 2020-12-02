@@ -58,7 +58,7 @@ Make a habit of creating these as your initial commit.
 git branch name-of-branch
 git checkout newly-create-branch-name
 
-git add README
+git add README.md
 git commit -m "Updated Readme and commiting to new branch"
 ```
 
@@ -72,7 +72,49 @@ git branch -h
 
 ## Excercise 4, remotes
 
+* To find what 'remotes' are set up for your current repo
+```
+git remote
+```
+
+* Or see the remote name with the url 
+```
+git remote -v
+```
+
+* Rename remote
+* Remove remote
+* Add  previous remote back
+* Checkout branch that was created in previous excerise
+* Push previously created commit to remote
+
+```
+git remote rename origin gitbasics
+git remote remove gitbasics
+git remote add origin url-to-your-git-repo
+git checkout 'previously-created-branch-name'
+git push origin 'previously-created-branch-name'
+```
+
+Notes:
+To start tracking the newly pushed branch to remote use '__-u__' in the command:
+```
+git push -u origin branch-name
+```
+
 ## Excercise 5, merge
+
+* From previous excerise we have two branches and now we can merge them
+
+* Checkout '__main__' branch
+* Pull latest changes
+* Merge new branch to '__main__'
+
+```
+
+```
+
+
 
 ## Excercise 6, pull requests
 * Do a code change in code or mark down, you can do that from commandline, Visual Studio or directly from GitHub.com

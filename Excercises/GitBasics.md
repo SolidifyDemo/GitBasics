@@ -50,6 +50,23 @@ Make a habit of creating these as your initial commit.
 
 ## Excercise 3, branching
 
+* Create a new branch
+* To start using the new branch you need to check it out
+* Do change to for example README file and commit your changes
+
+```
+git branch name-of-branch
+git checkout newly-create-branch-name
+```
+
+* Now there is a local branch and local commit which has not been pushed to the remote because currently the new branch is not tracked.
+
+
+* to get help for the '**branch**' command:
+```
+git branch -h
+```
+
 ## Excercise 4, remotes
 
 ## Excercise 5, merge

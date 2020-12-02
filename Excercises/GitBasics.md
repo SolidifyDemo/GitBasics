@@ -111,9 +111,10 @@ git push -u origin branch-name
 * Merge new branch to '__main__'
 
 ```
-
+git checkout main
+git pull origin
+git merge 'previously-created-branch-name'
 ```
-
 
 
 ## Excercise 6, pull requests

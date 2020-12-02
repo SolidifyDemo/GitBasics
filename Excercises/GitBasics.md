@@ -1,7 +1,7 @@
 # Git basics
 
 
-## Excecise 1, creating a repo
+## Excercise 1, creating a repo
 
 * Create a remote repository **on your own GitHub account**, named **GitBasics**. 
 * Initialize it with a readme.md file. The readme file should be your kind of table of content.
@@ -13,7 +13,7 @@ It is wise to keep this base path short.  (The default for VS is to place this u
 * Clone this repository to your local machine under the selected folder.  That way it is easier to work on with your local editor.  
 
 
-## Excecise 2
+## Excercise 2, add and commit your code
 
 * use dotnet to create a small code sample:
 
@@ -37,9 +37,6 @@ git commit -m "My first commit"
 git push
 ```
 
-
-
-
 ### Note
 
 All repos you create should always have the following files
@@ -51,6 +48,31 @@ These should be added before you add anything else.
 
 Make a habit of creating these as your initial commit.
 
+## Excercise 3, branching
+
+## Excercise 4, remotes
+
+## Excercise 5, merge
+
+## Excercise 6, pull requests
+
+## Excercise 7, issues
+* Go to the Issues tab
+* Create a new issue or two
+* Attach a picture by dragg and drop or paste
+* Assign it to yourself
+* Go to the Projects tab and create a project wit a name and a decription. Note that you can use templates, select the automated Kanban template
+* Se the cards in the To do column, read them and remove them.
+* Add your issues to the To do column
+* Note that you can change automation at the bottom of each column
+* Add anew column or two
+
+## Excercise 8, wikis
+* Go to the wiki tab and create the first page
+* Enter some text and try out the different markdown text features
+* Try adding a link and and image
+
+[More about Mark Down](https://guides.github.com/features/mastering-markdown/)
 
 
 

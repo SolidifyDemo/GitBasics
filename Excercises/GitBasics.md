@@ -57,6 +57,9 @@ Make a habit of creating these as your initial commit.
 ```
 git branch name-of-branch
 git checkout newly-create-branch-name
+
+git add README
+git commit -m "Updated Readme and commiting to new branch"
 ```
 
 * Now there is a local branch and local commit which has not been pushed to the remote because currently the new branch is not tracked.

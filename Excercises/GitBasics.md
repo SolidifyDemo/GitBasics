@@ -55,6 +55,11 @@ Make a habit of creating these as your initial commit.
 ## Excercise 5, merge
 
 ## Excercise 6, pull requests
+* Do a code change in code or mark down, you can do that from commandline, Visual Studio or directly from GitHub.com
+* Commit your changes to a new branch with the name of your choice
+* Create a Pull Request with a title and description
+* Notice the different tabs and that you can review and comment files changed 
+* Merge the PR and and remove the branch
 
 ## Excercise 7, issues
 * Go to the Issues tab

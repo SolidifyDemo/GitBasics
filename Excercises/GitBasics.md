@@ -52,20 +52,23 @@ Make a habit of creating these as your initial commit.
 
 * Create a new branch
 * To start using the new branch you need to check it out
-* Do change to for example README file or any other file and commit your changes
+* Do change to for example README file or any other file 
+* Check Status
+* Commit your changes
 
 ```
 git branch name-of-branch
 git checkout newly-create-branch-name
 
 git add .
+git status
 git commit -m "Updated Readme and commiting to new branch"
 ```
 
 * Now there is a local branch and local commit which has not been pushed to the remote because currently the new branch is not tracked.
 
 
-* to get help for the '**branch**' command:
+* to get help for the '__branch__' command:
 ```
 git branch -h
 ```
@@ -82,7 +85,7 @@ git remote
 git remote -v
 ```
 
-* Rename remote
+* Let rename  Rename remote
 * Remove remote
 * Add  previous remote back
 * Checkout branch that was created in previous excerise

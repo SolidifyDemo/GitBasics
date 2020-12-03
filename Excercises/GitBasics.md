@@ -52,7 +52,7 @@ Make a habit of creating these as your initial commit.
 
 * Create a new branch
 * To start using the new branch you need to check it out
-* Do change to for example README file or any other file 
+* Do change to for example README file or any other file
 * Check Status
 * Commit your changes
 
@@ -65,7 +65,7 @@ git status
 git commit -m "Updated Readme and commiting to new branch"
 ```
 
-* Now there is a local branch and local commit which has not been pushed to the remote because currently the new branch is not tracked.
+* Now there is a local branch and local commit which has not been pushed to the remote because the new branch has no upstream branch yet.
 
 
 * to get help for the '__branch__' command:
@@ -85,22 +85,30 @@ git remote
 git remote -v
 ```
 
-* Let rename  Rename remote
-* Remove remote
-* Add  previous remote back
-* Checkout branch that was created in previous excerise
-* Push previously created commit to remote
+* Lets see how we can add new remotes
+* Add new remote to the with the same url
+* Check remotes 
+* As we dont need duplicate remotes we can remove the newly creatd one
+* Check remotes that only the origin exists
 
 ```
-git remote rename origin gitbasics
+git remote add gitbasics 'url-to-git-repo'
+git remote -v
 git remote remove gitbasics
-git remote add origin url-to-your-git-repo
+git remote -v
+```
+
+* In the previous excerise we did some changes and commited those but never pushed to the remote
+* To do that lets checkout the branch that was created in previous excerise
+* Push previously created commit to remote using '-u' or '--set-upstream'
+
+```
 git checkout 'previously-created-branch-name'
 git push origin 'previously-created-branch-name'
 ```
 
 Notes:
-To start tracking the newly pushed branch to remote use '__-u__' in the command:
+To push branch to remote that does not exists in the remote repository we need to use '__-u__' or '__--set-upstream__' in the command:
 ```
 git push -u origin branch-name
 ```

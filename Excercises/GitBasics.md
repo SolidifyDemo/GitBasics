@@ -15,7 +15,7 @@ It is wise to keep this base path short.  (The default for VS is to place this u
 
 ## Excercise 2, add and commit your code
 
-* use dotnet to create a small code sample:
+* use dotnet to create a small code sample, standing in your cloned folder:
 
 ```
 dotnet new nunit

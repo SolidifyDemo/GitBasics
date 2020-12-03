@@ -65,4 +65,4 @@ We're using [GitHub](https://github.com) as remote storage.
 
 You need an account on Github.  
 
-If you don't have an account, create a new one.  You have both a Github account identifier and Name.  Imho both should be readable, and not a 'funny' name :-)
+If you don't have an account, create a new one.  You have both a Github account identifier and Name. Both should be readable, and not a 'funny' name :-)

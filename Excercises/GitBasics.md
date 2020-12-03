@@ -27,7 +27,7 @@ dotnet new nunit
 git status
 ```
 
-* Go to [gitignore.io](https://gitignore.io) and create a gitignore for your language of choice  (e.g. *csharp* for dotnet). For non-dev, choose *csharp* too. 
+* Go to [gitignore.io](https://gitignore.io) and create a gitignore for your language of choice  (e.g. *csharp* for dotnet). For non-dev, choose *csharp* too. A course this can be done when you create the repo in GitHub as well.
 * Add that to a file named **.gitignore**  (note the **dot** in front)
 * Run the git status command again, and note again what files are shown.
 * Stage and commit the code/files you have. 

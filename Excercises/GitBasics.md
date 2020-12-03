@@ -52,13 +52,13 @@ Make a habit of creating these as your initial commit.
 
 * Create a new branch
 * To start using the new branch you need to check it out
-* Do change to for example README file and commit your changes
+* Do change to for example README file or any other file and commit your changes
 
 ```
 git branch name-of-branch
 git checkout newly-create-branch-name
 
-git add README.md
+git add .
 git commit -m "Updated Readme and commiting to new branch"
 ```
 
@@ -116,24 +116,25 @@ git pull origin
 git merge 'previously-created-branch-name'
 ```
 
+* If there are conflicts during merge, those need to be resolved.
 
 ## Excercise 6, pull requests
 * Do a code change in code or mark down, you can do that from commandline, Visual Studio or directly from GitHub.com
-* Commit your changes to a new branch with the name of your choice
-* Create a Pull Request with a title and description
-* Notice the different tabs and that you can review and comment files changed 
-* Merge the PR and and remove the branch
+* Commit your changes to a new branch with the name of your choice and push those to remote
+* Create a Pull Request with a title and description in Github.com
+* Notice the different tabs and that you can review and comment files changed.
+* Merge the PR and remove the branch
 
 ## Excercise 7, issues
 * Go to the Issues tab
 * Create a new issue or two
 * Attach a picture by dragg and drop or paste
 * Assign it to yourself
-* Go to the Projects tab and create a project wit a name and a decription. Note that you can use templates, select the automated Kanban template
-* Se the cards in the To do column, read them and remove them.
+* Go to the Projects tab and create a project with a name and a decription. Note that you can use templates, select the automated Kanban template
+* See the cards in the To do column, read them and remove them.
 * Add your issues to the To do column
 * Note that you can change automation at the bottom of each column
-* Add anew column or two
+* Add a new column or two
 
 ## Excercise 8, wikis
 * Go to the wiki tab and create the first page

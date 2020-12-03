@@ -3,7 +3,7 @@
 
 ## Excercise 1, creating a repo
 
-* Create a remote repository **on your own GitHub account**, named **GitBasics**. 
+* Create a remote repository **on your own GitHub account**, named **GitBasics**. You can make it public or private.
 * Initialize it with a readme.md file. The readme file should be your kind of table of content.
 * Use this repo to for the labs
 * Decide a place on your PC, **a base  folder**, below this all your repositories should be placed. On my machine, I have a "D:\repos".   

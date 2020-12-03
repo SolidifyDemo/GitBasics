@@ -108,7 +108,7 @@ git push origin 'previously-created-branch-name'
 ```
 
 Notes:
-To push branch to remote that does not exists in the remote repository we need to use '__-u__' or '__--set-upstream__' in the command:
+It is good practise to use '__-u__' or '__--set-upstream__' in the command when first time pushing a local branch to remote as it sets associations to the remote:
 ```
 git push -u origin branch-name
 ```

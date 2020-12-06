@@ -10,7 +10,7 @@
 git filter-repo --analyze
 ```
 
-* Clean up
+* Clean up (in this case packages folder)
 ```
 git filter-repo --path "Main/packages/" --invert-paths
 ```

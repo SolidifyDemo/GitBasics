@@ -17,12 +17,21 @@
 
 ## Agenda
 * Multiple or single organizations, MT
+  * Single organizations is recommended for all who work together. Extra repos for lab/training maybe.
 * Repository structure, MK
   * Naming, tagging and so on
 * Working with teams, MK
 * Insights, MT
+  * Se what is happening in the project
+  * Part of GitHub One
 * Connect to AAD, MT
 * Connect to Azure boards, MK
 * Using the Marketplace, MK 
 * Audit log, MT
+  * On org level
+  * Can be reached by API to monitor
+  * https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-organizations-and-teams/reviewing-the-audit-log-for-your-organization
 * Webhooks, MT
+  * A way to integrate with other products
+  * Example, Azure Pipelines to GitHub (adds webhooks)
+  * Whar would you like to integrate to? Teams, Slack, Jira...?

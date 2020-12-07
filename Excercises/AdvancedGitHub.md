@@ -1,4 +1,24 @@
+# Create Branch policies
+
+* Go to Github.com
+* Navigate to your repository
+* Go to settings tab and click on branches.
+* Create a new branch protection
+* Add the policiies you think should be applied
+
+
 # GitHub Actions
+
+* Creat a simple dotnet core application
+
+```
+dotnet new webapp
+```
+* Push your changes in you repository
+* Go to Actions Tab
+* Generate a workflow based on the dotnet core action
+* Commit your changes and see what the action does
+
 
 # Migration from subversion
 * Install subversion if needed: https://www.visualsvn.com/downloads/

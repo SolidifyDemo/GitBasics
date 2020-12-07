@@ -25,6 +25,8 @@
   * Se what is happening in the project
   * Part of GitHub One
 * Connect to AAD, MT
+  * https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/github-tutorial
+  * https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-authentication-with-saml-single-sign-on
 * Connect to Azure boards, MK
 * Using the Marketplace, MK 
 * Audit log, MT
@@ -34,4 +36,4 @@
 * Webhooks, MT
   * A way to integrate with other products
   * Example, Azure Pipelines to GitHub (adds webhooks)
-  * Whar would you like to integrate to? Teams, Slack, Jira...?
+  * What would you like to integrate to? Teams, Slack, Jira...?

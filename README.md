@@ -5,3 +5,5 @@ Links for GitHub training
 * [Basics](./Excercises/GitBasics.md)
 * [Advanced GitHub](./Excercises/AdvancedGitHub.md)
 * [GitHub Administration](./Excercises/GitHubAdmin.md)
+ 
+ PR template demo

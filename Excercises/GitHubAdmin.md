@@ -3,6 +3,7 @@
 * “Restrict who can dismiss”, what is that
   * If your repository requires reviews, you can dismiss pull request reviews that are no longer valid or are unable to be approved by the reviewer.
   * https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/dismissing-a-pull-request-review
+  * Not supported in private repos
 * Secrets
   * Can we use other key vaults. Yes, Azure Key vault and others
   * Can we push secrets by API, Yes: https://docs.github.com/en/free-pro-team@latest/rest/reference/actions#secrets

@@ -11,7 +11,7 @@
 * Can prio be changed on builds
   * No, you can cancel builds though 
 * Is it possible to disable loggshipping to GitHub.com
-  * Not that we could find
+  * Not that we could find. GitHub AE could be an optio
 * Character encoding at import, Swedish characters
   * UTF-8 seems to be the one to use
 

@@ -6,4 +6,4 @@ Links for GitHub training
 * [Advanced GitHub](./Excercises/AdvancedGitHub.md)
 * [GitHub Administration](./Excercises/GitHubAdmin.md)
  
- PR template demo
+Testin Azure boards
